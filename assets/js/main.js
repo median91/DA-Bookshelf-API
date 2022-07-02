@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
   
   $('.opsi>.form-masukkan').onchange = searchData;
   $('#isCompleted').onclick = (e) => {
-    $('form>button').innerText = e.target.checked ? 'Simpan Sebagai Udah dibaca' : 'Simpan Sebagi Belum dibaca';
+    $('form>button').innerText = e.target.checked ? 'Simpan Sebagai Udah dibaca' : 'Simpan Sebagai Belum dibaca';
   };
   
   $('#tambahBuku').onclick = () => {
